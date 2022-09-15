@@ -1,0 +1,29 @@
+{
+  "name": "dataselfieapp",
+  "version": "1.0.0",
+  "description": "data Selfie App",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev348/DataSelfieApp.git"
+  },
+  "keywords": [
+    "example",
+    "data",
+    "selfie"
+  ],
+  "author": "Meenakshisundareswaran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dev348/DataSelfieApp/issues"
+  },
+  "homepage": "https://github.com/dev348/DataSelfieApp#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nedb": "^1.8.0",
+    "nodemon": "^2.0.19"
+  }
+}
