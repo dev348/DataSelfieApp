@@ -4,15 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
+    <title>DataSelfieApp</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.2/p5.min.js" integrity="sha512-rCZdHNB0AePry6kAnKAVFMRfWPmUXSo+/vlGtrOUvhsxD0Punm/xWbEh+8vppPIOzKB9xnk42yCRZ5MD/jvvjQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <h1>Hi Hello world its my own application</h1>
+<hr>
+<div>
+    <a href="/">Enter</a> |
+<a href="./logs">List</a>
+
+</div>
+
+
 <p>latitude:<span id="lat"></span>°<br/>
     Longitude:<span id="long"></span>°</p>
-    <button id="submit" class="btn " onclick="getData()"> Action </button>
-    <script src="./App.js"></script>
+
+    <label for="mood">How is your feeling!</label>
+    <input type="text" id="mood" value="Smile">
+    <button id="submit" class="btn " > Action </button>
     <script src="script.js"></script>
     
 </body>
