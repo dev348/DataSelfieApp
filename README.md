@@ -1,5 +1,5 @@
 # DataSelfieApp
-The Data Selfie App is a project tutorial by @joeyklee.
+The Data Selfie App is a project 
 
 Videos
 
@@ -19,3 +19,6 @@ Objectives
 * show flat file
 * introduce the idea of the database
 3. Learn how to use fetch() to POST data to the server.
+
+
+credit: @joeyklee.
